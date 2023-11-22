@@ -22,21 +22,21 @@ The project simulates a real-time notification system for a football match. It u
 ### Installation
 
 1. Clone the repository:
-```bash
+  ```bash
   git clone https://github.com/noureddine409/notification-sink.git
-```
+  ```
 2. Navigate to the project directory:
-```bash
-     cd notification-sink
-```
+  ```bash
+  cd notification-sink
+  ```
 3. Build the project:
-```bash
-   mvn clean install
-```
+  ```bash
+  mvn clean install
+  ```
 4. Run the application:
-```bash
-mvn spring-boot:run
-```
+  ```bash
+  mvn spring-boot:run
+  ```
 
 ## Usage
 
@@ -44,7 +44,3 @@ The application exposes two endpoints:
 
 - `POST /api/v1/games/update`: Updates the game state.
 - `GET /api/v1/games/stream`: Returns a stream of game updates.
-
-## Contributing
-
-Contributions are welcome! Please read our contributing guidelines to get started.
