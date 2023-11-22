@@ -16,7 +16,7 @@ The project simulates a real-time notification system for a football match. It u
 
 ### Prerequisites
 
-- Java 8 or higher
+- Java 17
 - Maven
 
 ### Installation
